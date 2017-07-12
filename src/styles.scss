@@ -1,0 +1,16 @@
+$color-white: #fff;
+$color-background: #0af;
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    background: $color-background;
+    color: $color-white;
+    font-size: 2em;
+
+    align-items: center;
+    justify-content: center;
+}
